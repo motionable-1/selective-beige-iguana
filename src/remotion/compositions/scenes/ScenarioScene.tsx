@@ -6,14 +6,11 @@ import {
   interpolate,
   Easing,
   Img,
-  Sequence,
 } from "remotion";
 import {
   FadeInWords,
   FadeInChars,
-  TypewriterText,
 } from "../../library/components/text/TextAnimation";
-import { Badge } from "../../library/components/effects/Badge";
 import { ShapeAnimation } from "../../library/components/effects/ShapeAnimation";
 import { ProgressRing } from "../../library/components/effects/ProgressRing";
 import { loadFont as loadManrope } from "@remotion/google-fonts/Manrope";
@@ -143,7 +140,6 @@ const ChatBubble: React.FC<ChatBubbleProps> = ({
 
 export const ScenarioScene: React.FC = () => {
   const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
 
   // Section badge entrance
   const sectionNum = interpolate(frame, [0, 20], [0, 1], {

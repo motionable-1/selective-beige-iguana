@@ -162,7 +162,6 @@ const GuidelineCard: React.FC<GuidelineCardProps> = ({
 
 export const GuidelinesScene: React.FC = () => {
   const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
 
   const sectionOpacity = interpolate(frame, [0, 20], [0, 1], {
     extrapolateLeft: "clamp",

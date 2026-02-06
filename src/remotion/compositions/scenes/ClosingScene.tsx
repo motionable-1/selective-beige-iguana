@@ -9,12 +9,10 @@ import {
 } from "remotion";
 import {
   FadeInWords,
-  FadeInChars,
   BounceChars,
 } from "../../library/components/text/TextAnimation";
 import { ShapeAnimation } from "../../library/components/effects/ShapeAnimation";
 import { ProgressRing } from "../../library/components/effects/ProgressRing";
-import { Badge } from "../../library/components/effects/Badge";
 import { loadFont as loadManrope } from "@remotion/google-fonts/Manrope";
 import { loadFont as loadInter } from "@remotion/google-fonts/Inter";
 

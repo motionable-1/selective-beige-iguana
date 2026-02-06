@@ -7,10 +7,7 @@ import {
   Easing,
   Img,
 } from "remotion";
-import {
-  FadeInWords,
-  FadeInChars,
-} from "../../library/components/text/TextAnimation";
+import { FadeInWords } from "../../library/components/text/TextAnimation";
 import { ShapeAnimation } from "../../library/components/effects/ShapeAnimation";
 import { ProgressRing } from "../../library/components/effects/ProgressRing";
 import { loadFont as loadManrope } from "@remotion/google-fonts/Manrope";
